@@ -1,7 +1,9 @@
 import './Header.css'
 const Header = () => {
   return (
-    <div>Header</div>
+    <section id='hero'>
+        hero
+    </section>
   )
 }
 

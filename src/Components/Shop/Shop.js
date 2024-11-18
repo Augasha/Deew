@@ -1,7 +1,9 @@
 import './Shop.css'
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <section id='shop'>
+        shop
+    </section>
   )
 }
 

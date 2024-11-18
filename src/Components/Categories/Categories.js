@@ -1,7 +1,9 @@
 import './Categories.css'
 const Categories = () => {
   return (
-    <div>Categories</div>
+    <section id='categories'>
+        categories
+    </section>
   )
 }
 

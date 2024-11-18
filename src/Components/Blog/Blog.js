@@ -1,7 +1,9 @@
 import './Blog.css'
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <section id='blog'>
+        blog
+    </section>
   )
 }
 
