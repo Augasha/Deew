@@ -1,8 +1,14 @@
 import './Navbar.css'
 const Navbar = () => {
   return (
-    <div>navbar</div>
-  )
+    <header>
+      <nav>
+        <div className='tn-container container'>
+          
+        </div>
+      </nav>
+    </header>
+    )
 }
 
 export default Navbar
