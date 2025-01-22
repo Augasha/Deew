@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+##  WeedEcom - E-commerce Platform for Cannabis Products
+Welcome to WeedEcom! This is your go-to online store for premium cannabis products, ranging from flower to edibles, concentrates, and accessories. Our platform ensures that you get the highest quality products with easy navigation and secure checkout options.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Overview
+Features
+Installation
+Technologies Used
+User Roles
+Contributing
+License
+Overview
+WeedEcom is a user-friendly e-commerce platform dedicated to providing a seamless shopping experience for cannabis enthusiasts. Whether you're looking for recreational or medicinal products, we offer a wide range of strains, edibles, topicals, and more — all from trusted suppliers.
 
-## Available Scripts
+Key Features:
+Product Categories: Flower, edibles, concentrates, vape products, accessories, and CBD-based products.
+Secure Shopping Cart: Easily add and remove items with a responsive and secure cart system.
+Fast Checkout: Various payment options, including credit card, cryptocurrency, and digital wallets.
+User Authentication: Secure sign-up/sign-in for both customers and admins.
+Age Verification: Ensures compliance with local laws.
+Order Tracking: Keep an eye on your order status in real-time.
+Customer Support: Chat and email support to help with all inquiries.
+Features
+1. Product Browsing
+Filters & Search: Sort by product type, strain, price, and effects.
+Detailed Product Pages: Get information on strains, effects, THC/CBD content, and lab testing results.
+2. Secure Payment System
+Multiple Payment Options: Credit card, crypto, and digital wallet integration.
+SSL Encryption: Protects all transactions.
+3. User Account
+Personal Dashboard: View order history, saved favorites, and manage account settings.
+Age Verification: Required for new users to comply with legal restrictions.
+4. Admin Panel
+Manage Inventory: Easily add or remove products from the catalog.
+Order Management: Track and manage customer orders.
+Reporting & Analytics: View real-time sales and customer insights.
+Installation
+Prerequisites:
+Node.js and npm (for backend development)
+A web server (Nginx, Apache, or equivalent)
+Database system (MySQL, MongoDB, or equivalent)
+SSL certificate for secure transactions
+Steps:
+Clone the repository:
 
-In the project directory, you can run:
+bash
+Copy
+git clone https://github.com/weed-ecom/weed-ecom.git
+Install dependencies:
 
-### `npm start`
+bash
+Copy
+cd weed-ecom
+npm install
+Set up environment variables:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create a .env file at the root of the project and configure necessary environment variables such as database connection details and API keys.
+Set up the database:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Run the necessary migrations and seeders to populate the database with default data.
+Start the application:
 
-### `npm test`
+bash
+Copy
+npm start
+Visit your site at http://localhost:3000 (or your configured domain).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technologies Used
+Frontend: React, HTML5, CSS3, JavaScript
+Backend: Node.js, Express.js
+Database: MongoDB (or MySQL)
+Authentication: JWT (JSON Web Tokens)
+Payment Integration: Stripe API (for credit cards) and a crypto payment gateway
+Age Verification: Integration with third-party verification services
+User Roles
+Customer
 
-### `npm run build`
+Browse products
+Add items to the cart
+Make secure payments
+Track orders
+Manage account settings
+Admin
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Manage products and inventory
+View orders and customer data
+Process refunds and handle customer queries
+Generate reports for sales and user activity
+Contributing
+We welcome contributions to WeedEcom! If you want to improve the platform or add new features, please follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Make changes and commit them (git commit -am 'Add new feature').
+Push to the branch (git push origin feature/your-feature).
+Create a pull request.
+Please ensure your code follows the established style guidelines and passes all tests.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+License
+WeedEcom is open-source software licensed under the MIT License. For more details, see the LICENSE file in this repository.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using WeedEcom. We hope you have a great experience shopping with us!
